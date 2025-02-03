@@ -1,0 +1,18 @@
+<table summary="Book collection form fields">
+  <tr>
+    <th><%= f.label :title, "Title" %></th>
+    <td><%= f.text_field(:title) %></td> <!-- string -->
+  </tr>
+  <tr>
+    <th><%= f.label :author, "Author" %></th>
+    <td><%= f.text_field(:author) %></td> <!-- string -->
+  </tr>
+  <tr>
+    <th><%= f.label :price, "Price" %></th>
+    <td><%= f.number_field(:price) %></td> <!-- number -->
+  </tr>
+  <tr>
+    <th><%= f.label :date, "Date" %></th>
+    <td><%= f.date_select(:date) %></td> <!-- date -->
+  </tr>
+</table>
